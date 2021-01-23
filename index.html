@@ -9,21 +9,21 @@
         <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
         <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS -->
+        <!-- CSS -->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top" oncontextmenu="return false">
-        <!-- Navigation-->
+    <body id="page-top" oncontextmenu="return false"> <!-- oncontextmenu = disable right click -->
+        <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+                <!-- mobile -->
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i>
                 </button>
+                <!-- nav-bar -->
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -43,6 +43,20 @@
                     <a class="btn btn-primary js-scroll-trigger" href="#about">more</a>
                 </div>
             </div>
+            
+            <style>.masthead {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 35rem;
+            padding: 15rem 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 80%, #000000 100%), url("img/felix-back.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            }
+            </style>
         </header>
         <!-- About-->
         <section class="about-section text-center" id="about">
@@ -50,12 +64,19 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4">About</h2>
-                        <p class="text-white-50">Hello, im Felix Pieber. A young hobby photographer and designer for Austria.</p>
+                        <p class="text-white-50">Hello, I'm Felix Pieber. A young hobby <a href="https://instagram.com/flex_the_fox" target="_blank">photogarpher</a> and <a href="https://instagram.com/flex_the_designer" target="_blank">designer</a> from Austria.</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="img/about-back.png" alt="" height="100px" width="200px"/>
+                <img class="img-fluid" src="img/about-pic.png" alt="" height="100px" width="200px"/>
+                <br><br><br>
                 <br><br><br>
             </div>
+            
+            <style> .about-section {
+            padding-top: 10rem;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 80%, #000000 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 80%, #000000 100%), url("img/about-back.png");
+            }
+            </style>
         </section>
         <!-- Projects-->
         <section class="projects-section bg-black" id="projects">
@@ -67,7 +88,7 @@
             </div>
         </section>
         <!-- Shop -->
-        <section class="about-section text-center" id="shop">
+        <section class="projects-section bg-black" id="shop">
             <div class="container">
             </div>
             <div id="myShop">
@@ -125,6 +146,7 @@
                 </div>
 				<!-- Social -->
                 <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.github.com/felixpieber" target="_blank"><i class="fab fa-github"></i></a>
                     <a class="mx-2" href="https://www.youtube.com/channel/UCdCcR8nOPnnkS3g8R88Y9Tw" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a class="mx-2" href="https://www.twitch.tv/flex_the_fox" target="_blank"><i class="fab fa-twitch"></i></a>
                     <a class="mx-2" href="https://linktr.ee/flex_the_fox" target="_blank">link<i class="fa fa-tree"></i></a>
@@ -132,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <!-- script kid fucker -->
+        <!-- script kid fucker ;) -->
         <script>
             document.onkeydown = function(e) {
             if(event.keyCode == 123) {
