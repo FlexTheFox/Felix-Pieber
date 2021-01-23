@@ -160,7 +160,8 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #a8dadc
+      ;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10201,18 +10202,6 @@ body {
   border: 0;
 }
 
-.masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("/img/felix-back.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
@@ -10249,10 +10238,6 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
 .about-section p {
   margin-bottom: 5rem;
 }
