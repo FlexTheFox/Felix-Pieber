@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Web Stats Bot
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @author       Felix Pieber
 // @icon         https://www.suunto.com/contentassets/c418325fc1eb49efa00cc23cb243fb74/icon-navigation.png
 // @description  Free autoreload Web Bot.
