@@ -16,13 +16,13 @@ setTimeout(function(){ location.reload(); }, 20*100);
 /*
 == READ THIS: ==
 
-To run the bot on a website write at @include your URL. 
+To run the bot on a website write at @include your URL.
 
 For example: @include https://www.instagram.com/felx_the_fox/*
 
 ==
 
-The script is running in milliseconds. 
+The script is running in milliseconds.
 1sek = 1.000ms -> 20*100ms=2.000ms=2sec
 
 List:
