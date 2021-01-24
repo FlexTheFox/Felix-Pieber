@@ -7,7 +7,6 @@
 // @description  Free autoreload Web Bot.
 // @website      https://felixpieber.github.com/web
 // @updateURL    https://felixpieber.github.io/web/js/Web.Stats.Bot.user.js/
-// @grant        none
 // @include      *://www.*.*/*
 // ==/UserScript==
 
@@ -54,3 +53,4 @@ What means the "*"? -> "*" are every impossible combination.
 For example: @include *://*.wikipedia./wiki/* -> now it will run on every wikipedia/wiki/ page
 
 ==
+*/
