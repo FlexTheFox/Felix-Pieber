@@ -7,7 +7,7 @@
 // @description  Keyboard hotkeys for Instagram.
 // @match        *://www.instagram.com/*
 // @website      https://felixpieber.github.com/web
-// @updateURL    https://web/js/Hot.Instagram.js
+// @updateURL    https://felixpieber.github.io/web/js/Hot.Instagram.user.js/
 // @grant        none
 // ==/UserScript==
 
