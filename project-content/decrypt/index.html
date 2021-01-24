@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+    <title>FelxCode</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    
+  <!-- Core CSS -->
+  <link href="vendor/core/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/css.min.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+          background-color: #ccc;
+        }
+
+        .accordion:after {
+          content: '\002B';
+          color: #777;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+          
+        }
+
+        .active:after {
+          content: "\2212";
+        }
+
+        .panel {
+          padding: 0 18px;
+          background-color: white;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+    </style>
+</head>
+
+<body id="page-top" oncontextmenu="return false"> <!-- oncontextmenu return false = disable right click -->
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="https://felixpieber.github.io/web/" target="_blank">Felix Pieber</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#content">Content</a>
+        </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#footer">MORE</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">FlexCode</h1>
+      <h3 class="mb-5">
+        <em>A Free Codeing Website by <a href="https://www.github.com/felixpieber" target="_blank">Felix Pieber</a></em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- Content -->
+  <section class="content-section bg-light" id="content">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Content Table</h2>
+                <p>All Scripts here:</p>
+                <button class="accordion">Script Kid Fucker</button>
+                <div class="panel">
+                  <p>For disable "right click" write in your html file in your body section: 
+                     <br>
+                     <em>oncontextmenu="return false"</em></p>
+                  <img src="/img/body.png" class="center">
+                  <br>
+                  <br>
+                  <p>For disable "F12" write in your html file:<em> <br> &lt;script&gt;
+                     document.onkeydown = function(e) { <br>
+                     if(event.keyCode == 123) {return false;}
+                     <br>}
+                     <br>&lt;/script&gt;</em></p>
+                  <img src="/img/f12.png" class="center">
+                  <br>
+                  <br>
+                  <p>For disable "STRAG + I, J or U" write in your html file:<em> <br> &lt;script&gt; document.onkeydown = function(e) { <br>
+                     if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ <br>
+                     return false; <br>
+                     } <br>
+                     if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ <br>
+                     return false; <br>
+                     } <br>
+                     if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ <br>
+                     return false; <br>
+                     } <br>
+                     } <br>
+                     &lt;/script&gt;</em></p>
+                  <img src="/img/strg.png" class="center">
+                  <br>
+                  <br>
+                </div>
+
+                <button class="accordion">Hot Instagram</button>
+                <div class="panel">
+                  <p>Hot Instagram is a Keyboard Hotkey Script for <a href="https://instagram.com">Instagram.</a> to inject this JavaScript you need <a href="https://tampermonkey.net" target="_blank">Tampermonkey</a>.</p>
+                  <br>
+                  <p><a href="../../js/scripts.js" target="_blank">Download</a></p>
+                </div>
+
+                <button class="accordion">name3</button>
+                <div class="panel">
+                  <p>text</p>
+                </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                  });
+                }
+            </script>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- Footer -->
+  <footer class="footer text-center" id="footer">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#!">
+            <i class="icon-social-youtube"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#!">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="#!">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; Felix Pieber 2021</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+    
+  <!-- script kid fucker ;) -->
+    <script>
+            document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }
+    </script>
+
+  <!-- Core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+</html>
