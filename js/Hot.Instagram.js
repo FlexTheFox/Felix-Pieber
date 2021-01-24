@@ -4,9 +4,10 @@
 // @version      1.1
 // @author       Felix Pieber
 // @icon         https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/256/Hot-icon.png
-// @description  Keyboard shortcuts for Instagram (when input focus is not on an input box or text input form field)
+// @description  Keyboard hotkeys for Instagram.
 // @match        *://www.instagram.com/*
-// @website      https:felixpieber.github.com/web
+// @website      https://felixpieber.github.com/web
+// @updateURL    https://felixpieber.github.io/js/Hot.Instagram.js
 // @grant        none
 // ==/UserScript==
 

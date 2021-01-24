@@ -87,7 +87,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/FlexCode-back.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/back.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,11 +318,11 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #ecb807;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #ba9106;
 }
 
 .btn-primary {

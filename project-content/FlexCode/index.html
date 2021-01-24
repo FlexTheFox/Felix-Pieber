@@ -56,10 +56,24 @@
 
         .panel {
           padding: 0 18px;
-          background-color: white;
+          background-color: #1E1F21;
           max-height: 0;
           overflow: hidden;
           transition: max-height 0.2s ease-out;
+          text-emphasis-color: white;
+        }
+        
+        p {
+            color: #777;
+        }
+        p1 {
+            color: lightcoral;
+        }
+        p2 {
+            color: #eee;
+        }
+        a {
+            color: #9fd6ff;
         }
     </style>
 </head>
@@ -108,21 +122,25 @@
                 <p>All Scripts here:</p>
                 <button class="accordion">Script Kid Fucker</button>
                 <div class="panel">
-                  <p>For disable "right click" write in your html file in your body section: 
+                    <p2>For disable "right click" write in your html file in your body section:</p2> 
                      <br>
-                     <em>oncontextmenu="return false"</em></p>
+                     <p><em>oncontextmenu="return false"</em></p>
+                    <p1>EXEMPLE:</p1>
+                    <br>
                   <img src="img/body.png" class="center">
                   <br>
                   <br>
-                  <p>For disable "F12" write in your html file:<em> <br> &lt;script&gt;
+                    <p2>For disable "F12" write in your html file:</p2><p><em> <br> &lt;script&gt;
                      document.onkeydown = function(e) { <br>
                      if(event.keyCode == 123) {return false;}
                      <br>}
                      <br>&lt;/script&gt;</em></p>
+                    <p1>EXEMPLE:</p1>
+                    <br>
                   <img src="img/f12.png" class="center">
                   <br>
                   <br>
-                  <p>For disable "STRAG + I, J or U" write in your html file:<em> <br> &lt;script&gt; document.onkeydown = function(e) { <br>
+                    <p2>For disable "STRAG + I, J or U" write in your html file:</p2><p><em> <br> &lt;script&gt; document.onkeydown = function(e) { <br>
                      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ <br>
                      return false; <br>
                      } <br>
@@ -134,6 +152,8 @@
                      } <br>
                      } <br>
                      &lt;/script&gt;</em></p>
+                    <p1>EXEMPLE:</p1>
+                    <br>
                   <img src="img/strg.png" class="center">
                   <br>
                   <br>
@@ -141,7 +161,10 @@
 
                 <button class="accordion">Hot Instagram</button>
                 <div class="panel">
-                  <p>Hot Instagram is a Keyboard Hotkey Script for <a href="https://instagram.com">Instagram.</a> to inject this JavaScript you need <a href="https://tampermonkey.net" target="_blank">Tampermonkey</a>.</p>
+                  <p2>Hot Instagram is a Keyboard Hotkey Script for <a href="https://instagram.com">Instagram</a> to inject this JavaScript you need <a href="https://tampermonkey.net" target="_blank">Tampermonkey</a>.</p2>
+                  <br>
+                  <p2>Press "?" to see the Hotkey list.</p2>
+                  <br>
                   <br>
                   <p><a href="../../js/Hot.Instagram.js" target="_blank">Download</a></p>
                 </div>
