@@ -17,7 +17,7 @@ setTimeout(function(){ location.reload(); }, 20*100);
 
 To run the bot on a website write at @include your URL.
 
-For example: @include https://www.instagram.com/felx_the_fox/*
+For example: @include *://www.instagram.com/felx_the_fox/*
 
 ==
 
