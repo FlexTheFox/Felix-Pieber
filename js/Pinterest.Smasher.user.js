@@ -4,7 +4,7 @@
 // @version      1.1
 // @author       Felix Pieber
 // @description  Allows to browse Pinterest without login/registration.
-// @icon         https://images.squarespace-cdn.com/content/v1/56f023b4356fb0e916e2a9ea/1566481502153-MG6NK0NKC9FPML4BD4UX/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcjVvFZn3_1TpSINbj1p15LLAjcj6UHNkQOuDz3gO52lBvccB2t33iJEaqs_Hdgp_g/BLAST+SKATES+SMASHER.png?format=2500w
+// @icon         https://images-na.ssl-images-amazon.com/images/I/41suDQeNN5L.png
 // @website      https://felixpieber.github.com/web
 // @updateURL    https://felixpieber.github.io/web/js/Pinterest.Smasher.user.js/
 // @include      http://*.pinterest.com/*
