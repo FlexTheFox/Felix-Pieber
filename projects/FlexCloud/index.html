@@ -64,7 +64,8 @@
     </style>
 </head>
 
-<body>
+<body oncontextmenu="return false"> <!-- oncontextmenu return false = disable right click -->
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
@@ -163,6 +164,26 @@
     </div>
   </footer>
 
+    
+  <!-- script kid fucker ;) -->
+    <script>
+            document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }
+    </script>
+    
+    
   <!-- Core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
