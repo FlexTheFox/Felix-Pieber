@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @author       Felix Pieber
-// @icon         https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/256/Hot-icon.png
+// @icon         https://vignette.wikia.nocookie.net/lumber-tycoon-2/images/8/8b/Fire_gif.gif/
 // @description  Keyboard hotkeys for Instagram.
 // @match        *://www.instagram.com/*
 // @website      https://felixpieber.github.com/web
