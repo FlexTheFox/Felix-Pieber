@@ -6,7 +6,7 @@
 // @icon         https://www.suunto.com/contentassets/c418325fc1eb49efa00cc23cb243fb74/icon-navigation.png
 // @description  Free autoreload Web Bot.
 // @website      https://felixpieber.github.com/web
-// @updateURL    https://felixpieber.github.io/web/js/Web.Stats.Bot.user.js/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Web.Stats.Bot.user.js/
 // @include      *://www.*.*/*
 // ==/UserScript==
 

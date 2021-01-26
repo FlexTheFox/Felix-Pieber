@@ -6,7 +6,7 @@
 // @description  Allows to browse Pinterest without login/registration.
 // @icon         https://images-na.ssl-images-amazon.com/images/I/41suDQeNN5L.png
 // @website      https://felixpieber.github.com/web
-// @updateURL    https://felixpieber.github.io/web/js/Pinterest.Smasher.user.js/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Pinterest.Smasher.user.js/
 // @include      http://*.pinterest.com/*
 // @include      https://*.pinterest.com/*
 // @include      https://*.pinterest.*/*
