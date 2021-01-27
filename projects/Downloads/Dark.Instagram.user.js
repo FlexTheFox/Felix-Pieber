@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -36,8 +36,8 @@ addGlobalStyle('.L3NKy, a.L3NKy, a.L3NKy:visited { background-color: #50728c !im
 addGlobalStyle('a.tdiEy, a.tdiEy:visited { color: #50728c !important; }'); //'Sign Up'
 addGlobalStyle('.-fzfL { border-color: #50728c !important; }'); //'Following' border color
 addGlobalStyle('.-fzfL { color: #50728c !important; }'); //'Following' text color
-addGlobalStyle('.KV-D4 { color: #5F85DB !important; }'); //handle color
-addGlobalStyle('.g47SY { color: #90b8f8 !important; }'); //#posts, #followers, #following
+addGlobalStyle('.KV-D4 { color: #3c5386 !important; }'); //handle color
+addGlobalStyle('.g47SY { color: #3d5669 !important; }'); //#posts, #followers, #following
 addGlobalStyle('.-nal3, .-nal3:active, .-nal3:hover, .-nal3:visited { color: #5F85DB !important; }'); //posts, followers, following
 addGlobalStyle('._32eiM, ._32eiM:visited { color: #5f85db !important; }'); //'Followed by ____ + x more'
 addGlobalStyle('.zwlfE { color: #5f85db !important; }'); //username color
