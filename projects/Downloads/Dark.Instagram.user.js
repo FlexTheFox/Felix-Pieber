@@ -22,6 +22,9 @@ function addGlobalStyle(css) {
 }
 
 addGlobalStyle('._3Laht, .o64aR { background-color: #212529 !important; }'); //background
+
+addGlobalStyle('zGtbP IPQK5 VideM { background-color: #212529 !important; }');
+
 addGlobalStyle('._lz6s { background-color: #343A40 !important; }'); //header
 addGlobalStyle('.Di7vw { background: #495057 !important; }'); //search bar background
 addGlobalStyle('.Di7vw { border: solid 1px #495057 !important; }'); //search bar border
