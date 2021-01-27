@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -120,9 +120,9 @@ addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background
 addGlobalStyle('.BvMHM.EzUlV { background-color: #26282b !important; }'); //profile settings background
 addGlobalStyle('.BvMHM { border: 1px solid #999999 !important; }'); //border color of settings
 addGlobalStyle('label { color: #000000 !important; }'); //text color
-addGlobalStyle('h1.nsKSz { color: #637CDF !important; }'); //text color of header
+addGlobalStyle('h1.nsKSz { color: #374374 !important; }'); //text color of header
 addGlobalStyle('a.h-aRd.fuQUr { background-color: #353942 !important; }'); //background color when highlighted
-addGlobalStyle('.JLJ-B, .p7vTm { color: #72ABFC !important; }'); //text in boxes
-addGlobalStyle('.RO68f { background-color: #4B718E !important; }'); //boxes background
-addGlobalStyle('.j_2Hd { border: #4B718E !important; color: #999999 !important; }'); //password color
+addGlobalStyle('.JLJ-B, .p7vTm { color: #364b5c !important; }'); //text in boxes
+addGlobalStyle('.RO68f { background-color: #2f3d5c !important; }'); //boxes background
+addGlobalStyle('.j_2Hd { border: #365064 !important; color: #999999 !important; }'); //password color
 addGlobalStyle('._lz6s { border-bottom: 1px solid #353942 !important; }'); //bottom border of header
