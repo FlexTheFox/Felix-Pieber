@@ -23,7 +23,7 @@
   <link href="css/css.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" oncontextmenu="return false"> <!-- oncontextmenu return false = disable right click -->
 
   <!-- Header -->
   <header class="masthead d-flex">
@@ -91,7 +91,25 @@
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-
+    
+  <!-- script kid fucker ;) -->
+    <script>
+            document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }
+    </script>
+    
   <!-- Core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
