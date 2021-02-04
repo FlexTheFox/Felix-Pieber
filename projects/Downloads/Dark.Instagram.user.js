@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -37,10 +37,10 @@ addGlobalStyle('a.tdiEy, a.tdiEy:visited { color: #50728c !important; }'); //'Si
 addGlobalStyle('.-fzfL { border-color: #50728c !important; }'); //'Following' border color
 addGlobalStyle('.-fzfL { color: #50728c !important; }'); //'Following' text color
 addGlobalStyle('.KV-D4 { color: #3c5386 !important; }'); //handle color
-addGlobalStyle('.g47SY { color: #3d5669 !important; }'); //#posts, #followers, #following
+addGlobalStyle('.g47SY { color: #ffffff !important; }'); //#posts, #followers, #following
 addGlobalStyle('.-nal3, .-nal3:active, .-nal3:hover, .-nal3:visited { color: #5F85DB !important; }'); //posts, followers, following
 addGlobalStyle('._32eiM, ._32eiM:visited { color: #5f85db !important; }'); //'Followed by ____ + x more'
-addGlobalStyle('.zwlfE { color: #5f85db !important; }'); //username color
+addGlobalStyle('.zwlfE { color: #000000 !important; }'); //username color
 addGlobalStyle('a.T-jvg, a.T-jvg:visited { color #50728c !important; }'); //'POSTS'
 addGlobalStyle('a, a:visited { color: #50728c !important; }'); //'TAGGED'
 addGlobalStyle('.T-jvg { border-top: 1px solid #999999 !important; }'); // line above 'POSTS'
@@ -99,10 +99,10 @@ addGlobalStyle('.JyscU.ePUX4 .eo2As { border-left: 1px solid #353941 !important 
 addGlobalStyle('.JyscU .UE9AK { border-bottom: 1px solid #999999 !important }'); //upper box-bottom border
 addGlobalStyle('.JyscU .Slqrh { border-top: 1px solid #999999 !important }'); //mid bottom box-top border
 addGlobalStyle('.sH9wk { border-top: 1px solid #999999 !important }'); //bottom box-top border
-addGlobalStyle ('span { color: #ffffff !important }'); //text color in comment sections
+addGlobalStyle ('span { color: #999999 !important }'); //text color in comment sections
+
 //for opening posts on an IG page
 addGlobalStyle('.JyscU.ePUX4 .UE9AK { background-color: #353941 !important; }'); //upper box color
-
 addGlobalStyle('.JyscU.ePUX4 .eo2As { background-color: #353941 !important; }'); //general background color
 
 //Main page
@@ -119,8 +119,8 @@ addGlobalStyle('.NP414.ccgHY.GZkEI { background-color: #26282b !important; borde
 addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background to 'start capturing moments'
 addGlobalStyle('.BvMHM.EzUlV { background-color: #26282b !important; }'); //profile settings background
 addGlobalStyle('.BvMHM { border: 1px solid #999999 !important; }'); //border color of settings
-addGlobalStyle('label { color: #ffffff !important; }'); //text color
-addGlobalStyle('h1.nsKSz { color: #ffffff !important; }'); //text color of header
+addGlobalStyle('label { color: #26282b !important; }'); //text color
+addGlobalStyle('h1.nsKSz { color: #26282b !important; }'); //text color of header
 addGlobalStyle('a.h-aRd.fuQUr { background-color: #353942 !important; }'); //background color when highlighted
 addGlobalStyle('.JLJ-B, .p7vTm { color: #364b5c !important; }'); //text in boxes
 addGlobalStyle('.RO68f { background-color: #2f3d5c !important; }'); //boxes background
