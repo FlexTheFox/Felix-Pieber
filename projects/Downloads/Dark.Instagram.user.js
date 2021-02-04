@@ -87,7 +87,7 @@ addGlobalStyle('.-cx-PRIVATE-ErrorPage__errorContainer__ { background-color: #26
 addGlobalStyle('.-cx-PRIVATE-Page__main__ { background-color: #26282b !important; }'); //background color
 
 addGlobalStyle('body { background-color: #26282b !important; }'); //full background
-addGlobalStyle('.-cx-PRIVATE-Footer__copyright__ { color: #90b8f8 !important; }'); //2019 Instagram
+addGlobalStyle('.-cx-PRIVATE-Footer__copyright__ { color: #90b8f8 !important; }'); //2021 Instagram
 
 
 
@@ -99,7 +99,7 @@ addGlobalStyle('.JyscU.ePUX4 .eo2As { border-left: 1px solid #353941 !important 
 addGlobalStyle('.JyscU .UE9AK { border-bottom: 1px solid #999999 !important }'); //upper box-bottom border
 addGlobalStyle('.JyscU .Slqrh { border-top: 1px solid #999999 !important }'); //mid bottom box-top border
 addGlobalStyle('.sH9wk { border-top: 1px solid #999999 !important }'); //bottom box-top border
-addGlobalStyle ('span { color: #90b8f8 !important }'); //text color in comment sections
+addGlobalStyle ('span { color: #ffffff !important }'); //text color in comment sections
 //for opening posts on an IG page
 addGlobalStyle('.JyscU.ePUX4 .UE9AK { background-color: #353941 !important; }'); //upper box color
 
@@ -119,8 +119,8 @@ addGlobalStyle('.NP414.ccgHY.GZkEI { background-color: #26282b !important; borde
 addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background to 'start capturing moments'
 addGlobalStyle('.BvMHM.EzUlV { background-color: #26282b !important; }'); //profile settings background
 addGlobalStyle('.BvMHM { border: 1px solid #999999 !important; }'); //border color of settings
-addGlobalStyle('label { color: #000000 !important; }'); //text color
-addGlobalStyle('h1.nsKSz { color: #374374 !important; }'); //text color of header
+addGlobalStyle('label { color: #ffffff !important; }'); //text color
+addGlobalStyle('h1.nsKSz { color: #ffffff !important; }'); //text color of header
 addGlobalStyle('a.h-aRd.fuQUr { background-color: #353942 !important; }'); //background color when highlighted
 addGlobalStyle('.JLJ-B, .p7vTm { color: #364b5c !important; }'); //text in boxes
 addGlobalStyle('.RO68f { background-color: #2f3d5c !important; }'); //boxes background
