@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.3
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
 // @match        https://www.instagram.com/*
+// @match        https://about.instagram.com/*
+// @match        https://help.instagram.com/*
 // @website      https://felixpieber.github.com/web
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Dark.Instagram.user.js/
 // @grant        none
@@ -54,14 +56,13 @@ addGlobalStyle('.zGtbP { background-color: #212529 !important; }');
 //Comment
 addGlobalStyle('.Ypffh { color: #ffffff !important; }');
 
-//Suggestions For You
+//suggestions For You
 addGlobalStyle('._8UZ6e { background-color: #212529 !important; }');
 
 //Direct
 addGlobalStyle('.oYYFH { background-color: #212529 !important; }'); //background
 addGlobalStyle('.oNO81 { background-color: #212529 !important; }'); //PRIMERY and GENERAL background
 addGlobalStyle('.S-mcP { background-color: #212529 !important; }'); //Direct-logo background
-
 
 //for pages with 'Requested'
 
@@ -130,6 +131,7 @@ addGlobalStyle('.b2rUF { border: 1px solid #999999 !important; }');
 //suggestions
 addGlobalStyle('.NP414.ccgHY.GZkEI { background-color: #26282b !important; border: #26282b !important; }'); //background of suggestions pop up
 
+
 //profile page
 addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background to 'start capturing moments'
 addGlobalStyle('.BvMHM.EzUlV { background-color: #26282b !important; }'); //profile settings background
@@ -141,3 +143,8 @@ addGlobalStyle('.JLJ-B, .p7vTm { color: #364b5c !important; }'); //text in boxes
 addGlobalStyle('.RO68f { background-color: #2f3d5c !important; }'); //boxes background
 addGlobalStyle('.j_2Hd { border: #365064 !important; color: #999999 !important; }'); //password color
 addGlobalStyle('._lz6s { border-bottom: 1px solid #353942 !important; }'); //bottom border of header
+
+//help.instagram.com
+addGlobalStyle('._io { background-color: #212529 !important; }'); //background
+addGlobalStyle('._4tvm { background-color: #212529 !important; }'); //help-background
+addGlobalStyle('._4g07 { background-color: #212529 !important; }'); //content-background
