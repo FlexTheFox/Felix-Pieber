@@ -62,6 +62,7 @@ addGlobalStyle('._8UZ6e { background-color: #212529 !important; }');
 //Direct
 addGlobalStyle('.oYYFH { background-color: #212529 !important; }'); //background
 addGlobalStyle('.oNO81 { background-color: #212529 !important; }'); //PRIMERY and GENERAL background
+addGlobalStyle('.m7ETg { color: #999999 !important; }');
 addGlobalStyle('.S-mcP { background-color: #212529 !important; }'); //Direct-logo background
 
 //for pages with 'Requested'
