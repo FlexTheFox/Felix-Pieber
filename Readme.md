@@ -3,10 +3,10 @@ This is the Website of Felix Pieber (flex_the_fox/flex_the_designer).
 
 
 Websites:
-    Web:            https://felixpieber.github.io/web/
-    FlexCode:       https://felixpieber.github.io/web/projects/FlexCode/
-    FlexCloud:      https://felixpieber.github.io/web/projects/FlexCloud/
-    FlexLink:       https://felixpieber.github.io/web/projects/FlexLink/
+>Web:            https://felixpieber.github.io/web/
+>FlexCode:       https://felixpieber.github.io/web/projects/FlexCode/
+>FlexCloud:      https://felixpieber.github.io/web/projects/FlexCloud/
+>FlexLink:       https://felixpieber.github.io/web/projects/FlexLink/
 
 Social-Media:
     Instagram:      https://www.instagram.com/flex_the_fox/
