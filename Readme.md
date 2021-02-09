@@ -4,7 +4,7 @@ This is the Website of Felix Pieber (flex_the_fox/flex_the_designer).
 
 
 # Websites:
->Web:            https://felixpieber.github.io/web/
+>Felix Pieber:            https://felixpieber.github.io/web/
 
 >FlexCode:       https://felixpieber.github.io/web/projects/FlexCode/
 
