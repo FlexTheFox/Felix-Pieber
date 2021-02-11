@@ -7,7 +7,7 @@
 // @icon         https://i.imgur.com/obCmlr9.png
 // @description  Free autoreload Web Bot.
 // @website      https://felixpieber.github.com/web
-// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Web.Stats.Bot.user.js/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/IG.Downloader.user.js/
 // @include      https://www.instagram.com/*
 // ==/UserScript==
 
