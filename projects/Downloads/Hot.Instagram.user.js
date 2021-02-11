@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hot Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @author       Felix Pieber
 // @icon         https://vignette.wikia.nocookie.net/lumber-tycoon-2/images/8/8b/Fire_gif.gif/
 // @description  Keyboard hotkeys for Instagram.
@@ -11,8 +11,9 @@
 // @grant        none
 // ==/UserScript==
 
-/* Keyboard shortcuts:
-"?" to display keyboard shortcut list.
+/* 
+SHORTCUTS:
+press "?" to display keyboard shortcut list.
 */
 
 (eHelp => {
@@ -37,20 +38,23 @@
         #iks_list div{display:inline-block;border:1px solid #000;border-radius:.3em;min-width:1.6em;background:#2a9d8f;text-align:center;font-weight:bold;line-height:1.4em}
         </style>
 
-<div id="iks_pop">
-  <div id="iks_title"><a href="https://felixpieber.github.com/web">Hot Instagram by Felix Pieber</a></div>
-  <table id="iks_list">
-    <tr><td><div>F</div></td><td>Toggle follow / unfollow.</td></tr>
-    <tr><td><div>1</div></td><td>Pick first post on the page (if none picked yet).</td></tr>
-    <tr><td><div>L</div></td><td>Toggle like / unlike.</td></tr>
-    <tr><td><div>S</div></td><td>Toggle save / unsave.</td></tr>
-    <tr><td><div>[</div>, <div>]</div> or <div>A</div>, <div>D</div></td><td>Navigate to previous / next post.</td></tr>
-    <tr><td><div>N</div>, <div>M</div></td><td>Navigate to previous / next media in the post.<br />If there's no more, navigate to previous / next post.</td></tr>
-    <tr><td><div>Space</div></td><td>Play / pause video in the post.</td></tr>
-    <tr><td><div>A</div>, <div>S</div></td><td>Rewind / fast forward video in the post by 10 seconds.</td></tr>
-    <tr><td><div>?</div></td><td>Display this list.</td></tr>
-  </table>
-</div>`;
+        <div id="iks_pop">
+          <div id="iks_title"><a href="https://felixpieber.github.com/web">Hot Instagram by Felix Pieber</a></div>
+          <table id="iks_list">
+            <tr><td><div>F</div></td><td>Toggle follow / unfollow.</td></tr>
+            <tr><td><div>1</div></td><td>Pick first post on the page (if none picked yet).</td></tr>
+            <tr><td><div>L</div></td><td>Toggle like / unlike.</td></tr>
+            <tr><td><div>S</div></td><td>Toggle save / unsave.</td></tr>
+            <tr><td><div>[</div>, <div>]</div> or <div>A</div>, <div>D</div></td><td>Navigate to previous / next post.</td></tr>
+            <tr><td><div>N</div>, <div>M</div></td><td>Navigate to previous / next media in the post.<br />If there's no more, navigate to previous / next post.</td></tr>
+            <tr><td><div>Space</div></td><td>Play / pause video in the post.</td></tr>
+            <tr><td><div>A</div>, <div>S</div></td><td>Rewind / fast forward video in the post by 10 seconds.</td></tr>
+            <tr><td><div>?</div></td><td>Display this list.</td></tr>
+          </table>
+        </div>`;
+          
+          
+          
         eHelp.onclick = () => eHelp.remove();
       }
       if (eHelp.parentNode) {
