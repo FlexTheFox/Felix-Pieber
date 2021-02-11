@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
 // @match        https://www.instagram.com/*
 // @match        https://about.instagram.com/*
 // @match        https://help.instagram.com/*
+// @match        https://business.facebook.com/creatorstudio/*
 // @website      https://felixpieber.github.com/web
 // @website      https://www.instagram.com/flex_the_fox/
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Dark.Instagram.user.js/
@@ -150,3 +151,21 @@ addGlobalStyle('._lz6s { border-bottom: 1px solid #353942 !important; }'); //bot
 addGlobalStyle('._io { background-color: #212529 !important; }'); //background
 addGlobalStyle('._4tvm { background-color: #212529 !important; }'); //help-background
 addGlobalStyle('._4g07 { background-color: #212529 !important; }'); //content-background
+
+//creator.studio
+addGlobalStyle('._3wpv { background-color: #212529 !important; }'); //background
+addGlobalStyle('.ReactVirtualized__Grid__innerScrollContainer { background-color: #212529 !important; }'); //feed panel
+addGlobalStyle('._7-iu { background-color: #212529 !important; }'); //create feed - background
+addGlobalStyle('._85h_ { background-color: #212529 !important; }'); //create feed - footer
+addGlobalStyle('._7yqd { background-color: #212529 !important; }'); //create feed - right panel
+addGlobalStyle('._7_8t { background-color: #212529 !important; }'); //create feed - add pic
+addGlobalStyle('._4-i0 { background-color: #212529 !important; }'); //create feed - delete?
+addGlobalStyle('._4-i2 { background-color: #212529 !important; }'); //create feed - delete?
+addGlobalStyle('._5a8u { background-color: #212529 !important; }'); //create feed - delete?
+addGlobalStyle('._3e7s { background-color: #212529 !important; }'); //posted feed img background
+addGlobalStyle('._1l9z { background-color: #212529 !important; }'); //insights footer
+addGlobalStyle('._7im8 { background-color: #212529 !important; }'); //insights content table
+addGlobalStyle('._7yq6 { background-color: #212529 !important; }'); //create feed - search loc
+addGlobalStyle('._36g4 { background-color: #212529 !important; }'); //create feed - search loc
+addGlobalStyle('._58al { color: #ffffff !important; }'); //create feed - search loc txt
+addGlobalStyle('._36g5 { background-color: #212529 !important; }'); //create feed - partner drop
