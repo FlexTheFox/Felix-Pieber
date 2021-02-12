@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.7
-// @icon         https://i.pinimg.com/originals/92/4e/4f/924e4f93e0c8fb300dde19c90180edca.gif
+// @version      1.9
+// @icon         https://i.gifer.com/7j9n.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
 // @match        https://www.instagram.com/*
@@ -40,6 +40,7 @@ addGlobalStyle('.L3NKy, a.L3NKy, a.L3NKy:visited { background-color: #50728c !im
 addGlobalStyle('a.tdiEy, a.tdiEy:visited { color: #50728c !important; }'); //'Sign Up'
 addGlobalStyle('.-fzfL { border-color: #50728c !important; }'); //'Following' border color
 addGlobalStyle('.-fzfL { color: #50728c !important; }'); //'Following' text color
+addGlobalStyle('._5f5mN { background-color: #90b8f8 !important; }'); //followed
 addGlobalStyle('.KV-D4 { color: #3c5386 !important; }'); //handle color
 addGlobalStyle('.g47SY { color: #ffffff !important; }'); //#posts, #followers, #following
 addGlobalStyle('.-nal3, .-nal3:active, .-nal3:hover, .-nal3:visited { color: #5F85DB !important; }'); //posts, followers, following
@@ -59,16 +60,17 @@ addGlobalStyle('.zGtbP { background-color: #212529 !important; }');
 addGlobalStyle('.Ypffh { color: #ffffff !important; }');
 
 //suggestions For You
-addGlobalStyle('._8UZ6e { background-color: #212529 !important; }');
+addGlobalStyle('._8UZ6e { background-color: #212529 !important; }'); //header background tHaIX
 
 //Direct
 addGlobalStyle('.oYYFH { background-color: #212529 !important; }'); //background
+addGlobalStyle('._7WGDw { background-color: #212529 !important; }'); //background
 addGlobalStyle('.oNO81 { background-color: #212529 !important; }'); //PRIMERY and GENERAL background
 addGlobalStyle('.m7ETg { color: #999999 !important; }');
-addGlobalStyle('.S-mcP { background-color: #212529 !important; }'); //Direct-logo background
+addGlobalStyle('.S-mcP { background-color: #212529 !important; }'); //Direct-LOGO background
+addGlobalStyle('.X3a-9 textarea { color: #ffffff !important; }'); //Direct write color
 
 //for pages with 'Requested'
-
 addGlobalStyle ('._8A5w5, a._8A5w5, a._8A5w5:visited { border: 1px solid #50728c !important; color: #50728c !important; }'); //'Requested' border and 'Requested' text color
 addGlobalStyle('._4Kbb_ { border: 1px solid #50728c !important; }'); //blank space border
 addGlobalStyle('._4Kbb_ { background-color: #353941 !important; }'); //blank space
@@ -87,24 +89,19 @@ addGlobalStyle('.VIsJD, .rkEop { color: #5F85DB !important; }'); //'This Account
 addGlobalStyle('.Nd_Rl, .fx7hk { border-top: 1px solid #50728c !important; }'); // annoying white line
 
 //for pages you have neither followed nor requested to follow
-
 addGlobalStyle('.jIbKX, .m4t9r.jIbKX { background: #90b8f8 !important; color: #353941 !important; }'); //'Follow' + Drop down
 addGlobalStyle('.jIbKX, .m4t9r.jIbKX { border-color: #90b8f8 !important; }'); //border color of Follow and drop down
 
 // // // // // // // // //
 
 //for pages that result in 'Sorry, this page isn't available
-
-
 addGlobalStyle('.-cx-PRIVATE-NavBar__root__ { background-color: #353941 !important; border-bottom: 1px solid #353941 !important; }'); //gray header
 addGlobalStyle('.-cx-PRIVATE-NavBar__username__ { color: #90b8f8 !important; }'); //username color
 
 //fixes to 'Sorry, this...'
 addGlobalStyle('h2 { color: #90b8f8 !important; }'); //'Sorry, this page isn't available' text color
-
 addGlobalStyle('.-cx-PRIVATE-ErrorPage__errorContainer__ { background-color: #26282b !important; padding: 100px 40px 0; }'); //upper background
 addGlobalStyle('.-cx-PRIVATE-Page__main__ { background-color: #26282b !important; }'); //background color
-
 addGlobalStyle('body { background-color: #26282b !important; }'); //full background
 addGlobalStyle('.-cx-PRIVATE-Footer__copyright__ { color: #90b8f8 !important; }'); //2021 Instagram
 
@@ -125,10 +122,9 @@ addGlobalStyle('.JyscU.ePUX4 .UE9AK { background-color: #353941 !important; }');
 addGlobalStyle('.JyscU.ePUX4 .eo2As { background-color: #353941 !important; }'); //general background color
 
 //Main page
-addGlobalStyle('.M9sTE { background-color: #353941 !important; }'); //
+addGlobalStyle('.M9sTE { background-color: #353941 !important; }');
 addGlobalStyle('article._8Rm4L.M9sTE.L_LMM.SgTZ1.ePUX4 { border: 1px solid #999999 !important; }');
-
-addGlobalStyle('.DPiy6 { background-color: #353941 !important; }'); //
+addGlobalStyle('.DPiy6 { background-color: #353941 !important; }');
 addGlobalStyle('.b2rUF { border: 1px solid #999999 !important; }');
 
 //suggestions

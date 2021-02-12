@@ -4,7 +4,7 @@
 // @version      1.1
 // @author       Felix Pieber
 // @description  Allows to browse Pinterest without login/registration.
-// @icon         https://i.pinimg.com/originals/14/e9/c1/14e9c1fa08891b41f23b7cdd02904c0e.gif
+// @icon         https://i.gifer.com/X5qO.gif
 // @website      https://felixpieber.github.com/web
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Pinterest.Smasher.user.js/
 // @include      http://*.pinterest.com/*

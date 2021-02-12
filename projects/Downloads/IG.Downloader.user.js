@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Download photo or video by one button click.
 // @author       Felix Pieber
-// @icon         https://i.imgur.com/obCmlr9.png
+// @icon         https://i.gifer.com/74H8.gif
 // @description  Free autoreload Web Bot.
 // @website      https://felixpieber.github.com/web
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/IG.Downloader.user.js/
