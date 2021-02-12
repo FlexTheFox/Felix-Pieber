@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.6
-// @icon         https://i.imgur.com/re3cZAe.gif
+// @version      1.7
+// @icon         https://i.pinimg.com/originals/92/4e/4f/924e4f93e0c8fb300dde19c90180edca.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
 // @match        https://www.instagram.com/*
