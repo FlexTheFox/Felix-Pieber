@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @icon         https://i.imgur.com/re3cZAe.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -169,3 +169,13 @@ addGlobalStyle('._7yq6 { background-color: #212529 !important; }'); //create fee
 addGlobalStyle('._36g4 { background-color: #212529 !important; }'); //create feed - search loc
 addGlobalStyle('._58al { color: #ffffff !important; }'); //create feed - search loc txt
 addGlobalStyle('._36g5 { background-color: #212529 !important; }'); //create feed - partner drop
+addGlobalStyle('._811a { background-color: #212529 !important; }'); //create feed - plan background
+addGlobalStyle('._4c02 { background-color: #212529 !important; }'); //create feed - tt.mm.jj background
+addGlobalStyle('._3-99 { background-color: #212529 !important; }'); //create feed - time background
+addGlobalStyle('._4nx7 { color: #ffffff !important; }'); //create feed - time color h numbers
+addGlobalStyle('._4nxh { color: #ffffff !important; }'); //create feed - time color :
+addGlobalStyle('._4nx3 { color: #ffffff !important; }'); //create feed - time color m numbers
+addGlobalStyle('._75fj { background-color: #212529 !important; }'); //edit post background
+addGlobalStyle('._75fk { background-color: #212529 !important; }'); //edit post content background
+addGlobalStyle('._8oy2 { background-color: #212529 !important; }'); //edit post pic background
+addGlobalStyle('._6qig { background-color: #212529 !important; }'); //edit post footer background
