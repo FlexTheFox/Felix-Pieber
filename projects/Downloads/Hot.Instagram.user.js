@@ -36,7 +36,7 @@ press "?" to display keyboard shortcut list.
         #iks_list tr:nth-child(2n+1){background:#2a9d8f}
         #iks_list td{padding:.05em .3em;vertical-align:middle;font-size:12pt;font-weight:normal;line-height:normal}
         #iks_list div{display:inline-block;border:1px solid #000;border-radius:.3em;min-width:1.6em;background:#2a9d8f;text-align:center;font-weight:bold;line-height:1.4em}
-        </style>
+    </style>
 
         <div id="iks_pop">
           <div id="iks_title"><a href="https://felixpieber.github.com/web">Hot Instagram by Felix Pieber</a></div>
