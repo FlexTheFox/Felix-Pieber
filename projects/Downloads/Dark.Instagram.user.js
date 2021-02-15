@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      1.9
+// @version      2.1
 // @icon         https://i.gifer.com/7j9n.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -53,23 +53,6 @@ addGlobalStyle('._3G4x7 { color: #50728c !important; }'); //'LANGUAGES'
 addGlobalStyle('.DINPA { color: #90b8f8 !important; }'); //'INSTAGRAM FROM FACEBOOK'
 addGlobalStyle('.eXle2 { color: #90b8f8 !important; }'); //text color of highlight names
 
-//Stroys
-addGlobalStyle('.zGtbP { background-color: #212529 !important; }');
-
-//Comment
-addGlobalStyle('.Ypffh { color: #ffffff !important; }');
-
-//suggestions For You
-addGlobalStyle('._8UZ6e { background-color: #212529 !important; }'); //header background tHaIX
-
-//Direct
-addGlobalStyle('.oYYFH { background-color: #212529 !important; }'); //background
-addGlobalStyle('._7WGDw { background-color: #212529 !important; }'); //background
-addGlobalStyle('.oNO81 { background-color: #212529 !important; }'); //PRIMERY and GENERAL background
-addGlobalStyle('.m7ETg { color: #999999 !important; }');
-addGlobalStyle('.S-mcP { background-color: #212529 !important; }'); //Direct-LOGO background
-addGlobalStyle('.X3a-9 textarea { color: #ffffff !important; }'); //Direct write color
-
 //for pages with 'Requested'
 addGlobalStyle ('._8A5w5, a._8A5w5, a._8A5w5:visited { border: 1px solid #50728c !important; color: #50728c !important; }'); //'Requested' border and 'Requested' text color
 addGlobalStyle('._4Kbb_ { border: 1px solid #50728c !important; }'); //blank space border
@@ -105,7 +88,7 @@ addGlobalStyle('.-cx-PRIVATE-Page__main__ { background-color: #26282b !important
 addGlobalStyle('body { background-color: #26282b !important; }'); //full background
 addGlobalStyle('.-cx-PRIVATE-Footer__copyright__ { color: #90b8f8 !important; }'); //2021 Instagram
 
-
+// // // // // // // // //
 
 //for individual posts
 addGlobalStyle('.ltEKP .QBXjJ { border: 1px solid #26282b !important; }'); //border color
@@ -127,9 +110,14 @@ addGlobalStyle('article._8Rm4L.M9sTE.L_LMM.SgTZ1.ePUX4 { border: 1px solid #9999
 addGlobalStyle('.DPiy6 { background-color: #353941 !important; }');
 addGlobalStyle('.b2rUF { border: 1px solid #999999 !important; }');
 
-//suggestions
+//Stroys
+addGlobalStyle('.zGtbP { background-color: #212529 !important; }');
+
+//suggestions For You
+addGlobalStyle('._8UZ6e { background-color: #212529 !important; }'); //header background
 addGlobalStyle('.NP414.ccgHY.GZkEI { background-color: #26282b !important; border: #26282b !important; }'); //background of suggestions pop up
 
+// // // // // // // // //
 
 //profile page
 addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background to 'start capturing moments'
@@ -142,6 +130,19 @@ addGlobalStyle('.JLJ-B, .p7vTm { color: #364b5c !important; }'); //text in boxes
 addGlobalStyle('.RO68f { background-color: #2f3d5c !important; }'); //boxes background
 addGlobalStyle('.j_2Hd { border: #365064 !important; color: #999999 !important; }'); //password color
 addGlobalStyle('._lz6s { border-bottom: 1px solid #353942 !important; }'); //bottom border of header
+
+//Direct
+addGlobalStyle('.oYYFH { background-color: #212529 !important; }'); //background
+addGlobalStyle('._7WGDw { background-color: #212529 !important; }'); //background
+addGlobalStyle('.oNO81 { background-color: #212529 !important; }'); //PRIMERY and GENERAL background
+addGlobalStyle('.m7ETg { color: #999999 !important; }');
+addGlobalStyle('.S-mcP { background-color: #343A40 !important; }'); //Direct-header background
+addGlobalStyle('.X3a-9 textarea { color: #ffffff !important; }'); //Direct write color
+
+//Comment
+addGlobalStyle('.Ypffh { color: #ffffff !important; }');
+
+// // // // // // // // //
 
 //help.instagram.com
 addGlobalStyle('._io { background-color: #212529 !important; }'); //background
@@ -175,3 +176,4 @@ addGlobalStyle('._75fj { background-color: #212529 !important; }'); //edit post 
 addGlobalStyle('._75fk { background-color: #212529 !important; }'); //edit post content background
 addGlobalStyle('._8oy2 { background-color: #212529 !important; }'); //edit post pic background
 addGlobalStyle('._6qig { background-color: #212529 !important; }'); //edit post footer background
+addGlobalStyle('._6g3g { background-color: #212529 !important; }'); //create feed - mark ppl background
