@@ -6,7 +6,7 @@
 // @icon         https://i.gifer.com/4Cb2.gif
 // @description  Keyboard hotkeys for Instagram.
 // @match        *://www.instagram.com/*
-// @website      https://felixpieber.github.com/web
+// @website      https://felixpieber.github.io/web/#!/
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Hot.Instagram.user.js/
 // @grant        none
 // ==/UserScript==

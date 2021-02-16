@@ -5,7 +5,7 @@
 // @description  Download photo or video by one button click.
 // @author       Felix Pieber
 // @icon         https://i.gifer.com/74H8.gif
-// @website      https://felixpieber.github.com/web
+// @website      https://felixpieber.github.io/web/#!/
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/IG.Downloader.user.js/
 // @include      https://www.instagram.com/*
 // ==/UserScript==

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      2.2
 // @icon         https://i.gifer.com/7j9n.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -9,7 +9,7 @@
 // @match        https://about.instagram.com/*
 // @match        https://help.instagram.com/*
 // @match        https://business.facebook.com/creatorstudio/*
-// @website      https://felixpieber.github.com/web
+// @website      https://felixpieber.github.io/web/#!/
 // @website      https://www.instagram.com/flex_the_fox/
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Dark.Instagram.user.js/
 // @grant        none
@@ -68,7 +68,7 @@ addGlobalStyle('.L3NKy, a.L3NKy, a.L3NKy:visited { color: #50728c !important; }'
 addGlobalStyle('.Rebts { color: #5F85DB !important; }'); //'Suggestions For You'
 addGlobalStyle('.VIsJD, .rkEop { color: #5F85DB !important; }'); //'This Account is Private'
 
-//annoying white line
+//Annoying White Line
 addGlobalStyle('.Nd_Rl, .fx7hk { border-top: 1px solid #50728c !important; }'); // annoying white line
 
 //for pages you have neither followed nor requested to follow
@@ -77,11 +77,11 @@ addGlobalStyle('.jIbKX, .m4t9r.jIbKX { border-color: #90b8f8 !important; }'); //
 
 // // // // // // // // //
 
-//for pages that result in 'Sorry, this page isn't available
+//For Pages That Result In "Sorry, this page isn't available"
 addGlobalStyle('.-cx-PRIVATE-NavBar__root__ { background-color: #353941 !important; border-bottom: 1px solid #353941 !important; }'); //gray header
 addGlobalStyle('.-cx-PRIVATE-NavBar__username__ { color: #90b8f8 !important; }'); //username color
 
-//fixes to 'Sorry, this...'
+//Fixes To "Sorry, this..."
 addGlobalStyle('h2 { color: #90b8f8 !important; }'); //'Sorry, this page isn't available' text color
 addGlobalStyle('.-cx-PRIVATE-ErrorPage__errorContainer__ { background-color: #26282b !important; padding: 100px 40px 0; }'); //upper background
 addGlobalStyle('.-cx-PRIVATE-Page__main__ { background-color: #26282b !important; }'); //background color
@@ -90,7 +90,7 @@ addGlobalStyle('.-cx-PRIVATE-Footer__copyright__ { color: #90b8f8 !important; }'
 
 // // // // // // // // //
 
-//for individual posts
+//For Individual Posts
 addGlobalStyle('.ltEKP .QBXjJ { border: 1px solid #26282b !important; }'); //border color
 addGlobalStyle('.ltEKP .QBXjJ { background-color: #353941 !important; }'); //main background color
 addGlobalStyle('.JyscU.ePUX4 .UE9AK { border-left: 1px solid #353941 !important }'); //upper box--left border
@@ -100,7 +100,7 @@ addGlobalStyle('.JyscU .Slqrh { border-top: 1px solid #999999 !important }'); //
 addGlobalStyle('.sH9wk { border-top: 1px solid #999999 !important }'); //bottom box-top border
 addGlobalStyle ('span { color: #999999 !important }'); //text color in comment sections
 
-//for opening posts on an IG page
+//For Opening Posts On An IG Page
 addGlobalStyle('.JyscU.ePUX4 .UE9AK { background-color: #353941 !important; }'); //upper box color
 addGlobalStyle('.JyscU.ePUX4 .eo2As { background-color: #353941 !important; }'); //general background color
 
@@ -111,15 +111,16 @@ addGlobalStyle('.DPiy6 { background-color: #353941 !important; }');
 addGlobalStyle('.b2rUF { border: 1px solid #999999 !important; }');
 
 //Stroys
-addGlobalStyle('.zGtbP { background-color: #212529 !important; }');
+addGlobalStyle('.zGtbP { background-color: #212529 !important; }'); //background eebAO
+addGlobalStyle('.eebAO { color: #50728c !important; }');
 
-//suggestions For You
+//Suggestions For You
 addGlobalStyle('._8UZ6e { background-color: #212529 !important; }'); //header background
 addGlobalStyle('.NP414.ccgHY.GZkEI { background-color: #26282b !important; border: #26282b !important; }'); //background of suggestions pop up
 
 // // // // // // // // //
 
-//profile page
+//Profile Page
 addGlobalStyle('.JLbVX { background-color: #26282b !important; }'); //background to 'start capturing moments'
 addGlobalStyle('.BvMHM.EzUlV { background-color: #26282b !important; }'); //profile settings background
 addGlobalStyle('.BvMHM { border: 1px solid #999999 !important; }'); //border color of settings
