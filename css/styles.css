@@ -4709,6 +4709,11 @@ input[type=button].btn-block {
   border-bottom-right-radius: 0.2rem;
 }
 
+.page-section {
+  padding: 8rem 0;
+  background-color: #111111;
+}
+
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
