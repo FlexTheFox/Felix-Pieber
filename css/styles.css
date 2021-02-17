@@ -4709,9 +4709,10 @@ input[type=button].btn-block {
   border-bottom-right-radius: 0.2rem;
 }
 
-.page-section {
+.banner {
   padding: 8rem 0;
-  background-color: #111111;
+  background: url("../img/banner-back.jpg");
+  border-radius: 5px;
 }
 
 .badge {
@@ -10207,6 +10208,7 @@ body {
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: cover;
+            border-radius: 5px;
             }
 
 
