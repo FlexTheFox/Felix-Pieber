@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch Points
 // @namespace    http://tampermonkey.net/
-// @version      0.9.2
+// @version      0.2
 // @description  Auto clicking "Channel Points" on Twicht.tv
 // @author       Felix Pieber
 // @match        https://www.twitch.tv/*
