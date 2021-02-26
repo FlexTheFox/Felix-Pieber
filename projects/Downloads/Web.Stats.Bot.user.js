@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Web Stats Bot
 // @namespace    http://tampermonkey.net/
-// @version      0.5
-// @author       Felix Pieber
+// @version      0.6
 // @icon         https://i.gifer.com/E9c5.gif
 // @description  Free autoreload Web Bot.
-// @website      https://felixpieber.github.com/web
-// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Web.Stats.Bot.user.js/
+// @author       Felix Pieber
 // @include      *://*.*.*/*
+// @website      https://felixpieber.github.com/web/#!/
+// @supportURL   https://www.instagram.com/flex_the_fox/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Web.Stats.Bot.user.js/
 // ==/UserScript==
 
 setTimeout(function(){ location.reload(); }, 20*100);

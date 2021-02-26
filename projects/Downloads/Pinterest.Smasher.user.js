@@ -1,15 +1,16 @@
 // ==UserScript==
 // @name         Pinterest Smasher
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @author       Felix Pieber
-// @description  Allows to browse Pinterest without login/registration.
+// @version      1.2
 // @icon         https://i.gifer.com/X5qO.gif
-// @website      https://felixpieber.github.com/web
-// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Pinterest.Smasher.user.js/
+// @description  Allows to browse Pinterest without login/registration.
+// @author       Felix Pieber
 // @include      http://*.pinterest.com/*
 // @include      https://*.pinterest.com/*
 // @include      https://*.pinterest.*/*
+// @website      https://felixpieber.github.com/web/#!/
+// @supportURL   https://www.instagram.com/flex_the_fox/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/Pinterest.Smasher.user.js/
 // @require      http://code.jquery.com/jquery-latest.min.js
 // @grant        GM_addStyle
 // ==/UserScript==

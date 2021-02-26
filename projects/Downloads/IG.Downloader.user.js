@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Instagram Downloader
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
+// @icon         https://i.gifer.com/74H8.gif
 // @description  Download photo or video by one button click.
 // @author       Felix Pieber
-// @icon         https://i.gifer.com/74H8.gif
-// @website      https://felixpieber.github.io/web/#!/
-// @updateURL    https://felixpieber.github.io/web/projects/Downloads/IG.Downloader.user.js/
 // @include      https://www.instagram.com/*
+// @website      https://felixpieber.github.io/web/#!/
+// @supportURL   https://www.instagram.com/flex_the_fox/
+// @updateURL    https://felixpieber.github.io/web/projects/Downloads/IG.Downloader.user.js/
 // ==/UserScript==
 
 (function() {
