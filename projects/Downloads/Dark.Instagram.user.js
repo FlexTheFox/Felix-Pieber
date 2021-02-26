@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Instagram
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2.3
 // @icon         https://i.gifer.com/7j9n.gif
 // @description  A Dark Mode Script for Instagram.
 // @author       Felix Pieber
@@ -152,6 +152,9 @@ addGlobalStyle('._4g07 { background-color: #212529 !important; }'); //content-ba
 
 //creator.studio
 addGlobalStyle('._3wpv { background-color: #212529 !important; }'); //background
+addGlobalStyle('.tb2mzrle { background-color: #212529 !important; }'); //background
+addGlobalStyle('.lmtvg2su { background-color: #212529 !important; }'); //background
+addGlobalStyle('.g1fckbup { background-color: #3578E5 !important; }'); //create post background
 addGlobalStyle('.ReactVirtualized__Grid__innerScrollContainer { background-color: #212529 !important; }'); //feed panel
 addGlobalStyle('._7-iu { background-color: #212529 !important; }'); //create feed - background
 addGlobalStyle('._85h_ { background-color: #212529 !important; }'); //create feed - footer
