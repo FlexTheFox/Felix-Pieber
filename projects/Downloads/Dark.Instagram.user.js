@@ -9,7 +9,7 @@
 // @match        https://about.instagram.com/*
 // @match        https://help.instagram.com/*
 // @match        https://business.facebook.com/creatorstudio/*
-// @website      https://felixpieber.github.io/web/#!/
+// @website      https://felixpieber.github.io/web/
 // @supportURL   https://www.instagram.com/flex_the_fox/
 // @updateURL    https://felixpieber.github.io/web/projects/Downloads/Dark.Instagram.user.js/
 // @grant        none
