@@ -217,7 +217,32 @@ border-radius: 10px;"> &lt;script&gt;
                     <img src="img/strg.png" class="center">
                     <br>
                     <br>
-                </div>
+                    </div>
+            
+                    <button class="accordion">Auto Footer Year Date - Tutorial</button>
+                    <div class="panel">
+                    <br>
+		    <p2>You can use this script to keep your copyright footer up to date.</p2>
+		            <br>
+		            <br>
+                    
+<textarea rows="8" cols="80" style="text-color; background-color:#777; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+border-radius: 10px;">&lt;footer&gt;
+&lt;div&gt;
+Copyright &copy; &lt;a href="any link"&gt;Name&lt;/a&gt;
+            &lt;script&gt;
+                    document.write(new Date().getFullYear());
+            &lt;/script&gt;
+&lt;/div&gt;
+&lt;/footer&gt;</textarea>
+                    <br>
+                    <p1>EXEMPLE:</p1>
+                    <br>
+                    <img src="img/footer.png" class="center">
+                    <br>
+                    <br>
+                    <br>
+                    </div>
             
                 <button class="accordion">Open source VPN tools - Blog</button>
                 <div class="panel">
@@ -502,8 +527,11 @@ Maintained by Andreas Steffen, a professor for security in communications and th
                 </div>
             </div>
           <br>
-          <div class="container">
-                <p class="text-muted small mb-0">Copyright &copy; Felix Pieber 2021</p>
+          <div class="text-muted small mb-0">
+                Copyright &copy; <a href="https://github.com/felixpieber/">Felix Pieber</a>
+            <script>
+                    document.write(new Date().getFullYear());
+            </script>
           </div>
         </section>
   </footer>
